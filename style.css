@@ -1,0 +1,83 @@
+.body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: 0px 166px;
+}
+
+.header {
+    background-image: url(background.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+    transition: 0.3s linear;
+}
+.nav-item:hover {
+    color: rgb(231, 22, 22);
+}
+
+.card {
+    position: relative;
+    border-right: 1px solid #FFFFFF;
+    padding-right: 10px;
+    height: 50px;
+
+}
+
+.cart-img {
+    position: absolute;
+    top: 18px;
+    right: 7px;
+}
+
+.num {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.5s linear;
+}
+
+.num:hover {
+    color: rgb(231, 42, 42);
+}
+.phone-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+.phone-holder {
+    display: flex;
+    align-items: center;
+}
+.button {
+    text-decoration: none;
+    background-color: #FF7400;
+    color: white;
+    padding: 14px 18px;
+    font-weight: 700;
+    font-size: 14ps;
+    transition: 0.5s linear;
+}
+.button:hover {
+    background-color: #502b0c;
+    color: red;
+}
