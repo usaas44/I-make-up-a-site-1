@@ -164,7 +164,7 @@
     background-color: #FFFFFF;
     margin-right: 31px;
     margin-top: -80px;
-    padding: 0px 10px;
+    padding: 10px 10px;
 }
 
 .card-image {
@@ -192,4 +192,69 @@
 
 .card-title span {
     color: #BC9060;
+}
+
+.history {
+    margin-top: 166px;
+}
+
+.history-title {
+    ont-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    width: 444px;
+
+}
+
+.history-holder {
+    display: flex;
+}
+
+.history-title span {
+    color: #BC9060;
+}
+
+.history-desc {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #656363;
+    height: 217px;
+    width: 444px;
+    left: 166px;
+    top: 1270px;
+    border-radius: nullpx;
+    margin-top: 21px;
+}
+
+.history-number {
+    width: 444px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.number-inem {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0em;
+    color: #BC9060;
+    margin-right: 60px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.number-inem span {
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+    display: block;
 }
