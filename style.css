@@ -209,6 +209,7 @@
 
 .history-holder {
     display: flex;
+    justify-content: space-between;
 }
 
 .history-title span {
@@ -257,4 +258,29 @@
     text-align: center;
     color: #000000;
     display: block;
+}
+
+.history-images {
+    position: relative;
+}
+
+.images-1 {
+    position: absolute;
+    z-index: 0;
+    top: 16px;
+    left: -443px;
+}
+
+.images-2 {
+    position: absolute;
+    z-index: 999;
+    top: 207px;
+    left: -164px;
+}
+
+.images-3 {
+    position: absolute;
+    z-index: 0;
+    top: -6px;
+    left: -306px;
 }
