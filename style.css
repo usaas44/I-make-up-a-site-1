@@ -196,10 +196,11 @@
 
 .history {
     margin-top: 166px;
+    padding-bottom: 200px;
 }
 
 .history-title {
-    ont-family: 'Tinos', serif;
+    font-family: 'Tinos', serif;
     font-size: 54px;
     font-weight: 400;
     text-align: center;
@@ -283,4 +284,56 @@
     z-index: 0;
     top: -6px;
     left: -306px;
+}
+
+.black-block {
+    background-image: url(bg.jpg);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 125px;
+}
+
+.left-title {
+    font-family: 'Tinos', serif;
+    font-size: 52px;
+    font-weight: 400;
+    text-align: left;
+    color: #D67E34;
+
+}
+.left-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 20px;
+   
+
+}
+
+.right-btn {
+    text-decoration: none;
+    background-color: #FF7400;
+    color: white;
+    padding: 14px 28px;
+    font-weight: 700;
+    font-size: 14px;
+    transition: 0.5s linear;
+}
+
+.right-btn:hover {
+    background-color: #502b0c;
+    color: red;
+}
+
+
+.block-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.right {
+    margin-right: 250px;
 }
