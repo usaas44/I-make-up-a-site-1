@@ -531,3 +531,36 @@
     margin-bottom: 20px;
 
 }
+
+.cook-title {
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    padding-top: 101px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.cook-title span {
+    color: #BC9060;
+}
+
+.cook-content {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.cook-img {
+    margin-right: 20px;
+    padding-bottom: 101px;
+}
+
+.footer {
+    background-color: #000000;
+    padding: 50px 0px;
+    color: #FFFFFF;
+    text-align: center;
+
+}
