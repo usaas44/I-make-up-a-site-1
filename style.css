@@ -388,8 +388,8 @@
     margin-top: 152px;
     background-image: url(menu-bg.jpg);
     background-repeat: no-repeat;
-    
-    
+
+
 }
 
 .menu-items {
@@ -444,12 +444,14 @@
     position: absolute;
     top: 220px;
     left: 189px;
+
 }
 
 .menu-image {
     position: relative;
     padding-top: 80px;
 }
+
 .price-420 {
     position: absolute;
     bottom: 22px;
@@ -459,3 +461,43 @@
     color: #FFFFFF;
 }
 
+.comment {
+    background-color: #E5E5E5;
+    
+}
+
+.comment-image {
+    text-align: center;
+}
+
+.comment-img {
+    border-radius: 50px;
+
+}
+
+.comment-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    padding-top: 104px;
+    padding-bottom: 30px;
+}
+
+.comment-type {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 17px;
+}
+
+.comment-name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 139px;
+    padding-top: 9px;
+}
