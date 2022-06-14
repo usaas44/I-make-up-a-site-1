@@ -7,7 +7,7 @@
     margin: 0px 166px;
 }
 
-.header {
+header {
     background-image: url(background.jpg);
     height: 80vh;
     background-repeat: no-repeat;
@@ -557,7 +557,7 @@
     padding-bottom: 101px;
 }
 
-.footer {
+footer {
     background-color: #000000;
     padding: 50px 0px;
     color: #FFFFFF;
