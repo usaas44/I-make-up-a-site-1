@@ -445,11 +445,16 @@ header {
     top: 220px;
     left: 189px;
 
+
 }
 
 .menu-image {
     position: relative;
     padding-top: 80px;
+}
+
+.menu-img {
+    border-radius: 120px;
 }
 
 .price-420 {
@@ -563,4 +568,25 @@ footer {
     color: #FFFFFF;
     text-align: center;
 
+}
+
+@media (max-width: 1500px) {
+    .gallery-content {
+        display: block;
+    }
+
+    .img-gal,
+    .gallery-up,
+    .gallery-down {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img-gal {
+        margin-bottom: 20px;
+    }
+    .gallery-left {
+        margin-right: 0;
+    }
 }
