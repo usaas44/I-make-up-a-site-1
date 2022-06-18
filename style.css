@@ -374,6 +374,14 @@ header {
     margin-left: 20px;
 }
 
+
+
+.menu-items  { 
+    display: flex;
+    
+    
+}    
+    
 .menu-title {
     font-family: 'Tinos', serif;
     font-size: 54px;
@@ -392,17 +400,19 @@ header {
 
 }
 
-.menu-items {
-    display: flex;
-}
+
+    
+
 
 .menu-item {
     background-color: #FFFFFF;
     text-align: center;
     width: 33%;
     padding-bottom: 30px;
-    margin-right: 50px;
+    margin-right: 38px;
+    margin-left: 34px;
     margin-bottom: 226px;
+    
 
 
 
@@ -440,30 +450,8 @@ header {
     color: red;
 }
 
-.price-image {
-    position: absolute;
-    top: 220px;
-    left: 189px;
-
-
-}
-
-.menu-image {
-    position: relative;
-    padding-top: 80px;
-}
-
-.menu-img {
-    border-radius: 120px;
-}
-
-.price-420 {
-    position: absolute;
-    bottom: 22px;
-    right: 2px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-    color: #FFFFFF;
+.burger-img {
+    padding-top: 50px;
 }
 
 .comment {
@@ -590,3 +578,30 @@ footer {
         margin-right: 0;
     }
 }
+
+@media (max-width: 1052px) {
+   .container-menu {
+    width: 100vw;
+    
+   } 
+    
+    .menu-items {
+        display: block;
+    }
+    .menu-item {
+        margin: 20px auto;
+        width: 300px;
+    }
+    .menu-title { 
+        padding-top: 20px;
+        padding-bottom: 38px;
+    }
+    .comment-text {
+        padding: 24px 0px;
+        margin: 0px -123px;
+        
+        
+          }
+}
+
+
