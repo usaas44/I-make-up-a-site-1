@@ -1,6 +1,9 @@
-.body {
+body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    padding: 0px;
+    border: none;
+    box-sizing: border-box;
 }
 
 .container {
@@ -12,6 +15,7 @@ header {
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
+    display: block;
 
 
 }
@@ -35,6 +39,25 @@ header {
 
 .nav-item:hover {
     color: rgb(231, 22, 22);
+}
+
+.block {
+    display: block;
+}
+
+.burger-slider {
+    position: absolute;
+
+}
+
+.disp {
+    display: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
 }
 
 .card {
@@ -718,6 +741,13 @@ footer {
 }
 
 @media (max-width: 1170px) {
+
+    header {
+        display: block;
+        width: 100vw;
+        margin: 0 auto
+    }
+
     .header-line {
         justify-content: space-between;
     }
@@ -736,4 +766,57 @@ footer {
     .number {
         display: none;
     }
+
+    .ccard {
+        width: 200px;
+
+    }
+
+    .card-title {
+        font-size: 22px;
+    }
+
+    .card-desc {
+        font-size: 20px;
+    }
+
+    .history-title,
+    .dishes-title,
+    .menu-title,
+    .gallery-title,
+    .cook-title {
+        font-size: 40px;
+        max-width: 330px;
+
+    }
+
+    .history-number {
+        display: block;
+    }
+
+    .number-inem{
+        margin-right: auto;
+
+        margin-left: auto;
+    }
+
+    .history-desc {
+        max-width: 330px;
+    }
+
+    .gallery {
+        display: none;
+    }
+
+    .burger-item{
+        display: block;
+    }
+
+    .left-title{
+        font-size: 25px;
+    }
+.right-btn{
+    padding: 7px 14px;
+}
+
 }
